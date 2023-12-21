@@ -1,0 +1,49 @@
+:root {
+    --grey-300: #cbd5e1;
+    --borderRadius: .25rem;
+    --primary-500: #645cff;
+    --primary-200: #c1beff;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    
+    h5 {
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        font-size: 25px;
+    }
+    hr {
+        background: var(--grey-300);
+        border-color: transparent;
+        border-width: 1px;
+        margin-bottom: 1rem;
+    }
+    .cart-total {
+        background: var(--primary-500);
+        display: inline-block;
+        padding: .25rem .5rem;
+        border-radius: var(--borderRadius);
+        color: var(--white);
+    }
+    .btn {
+        cursor: pointer;
+        color: var(--white);
+        background: var(--primary-500);
+        border: transparent;
+        border-radius: var(--borderRadius);
+        letter-spacing: var(--letterSpacing);
+        padding: .375rem .75rem;
+        box-shadow: var(--shadow-1);
+        transition: var(--transition);
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    .btn-hipster {
+        color: var(--primary-500);
+        background: var(--primary-200);
+    }
+}

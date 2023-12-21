@@ -1,0 +1,30 @@
+:root {
+    --view-width: 90vw;
+    --fixed-width: 800px;
+    --white: #fff;
+
+}
+.cart {
+    min-height: calc(100vh - 4rem);
+    width: var(--view-width);
+    margin: 40px auto 0;
+    padding: 2.5rem 0;
+    max-width: var(--fixed-width);
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: clamp(1.5rem,3vw,3rem);
+        margin: 0;
+        margin-bottom: 0px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    .empty-cart {
+        text-transform: lowercase;
+        color: grey;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
